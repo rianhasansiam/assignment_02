@@ -424,3 +424,124 @@ line-height: 80px;
 .filter11{background-color: rgba(0, 0, 0, 0.5);}
 .filter22{background-color: rgba(66, 255, 0, 0.3);}
 .filter33{background-color: rgba(0, 71, 255, 0.3);}
+
+
+
+.bmi-tittle{
+   max-width: 680px;
+   margin: auto;
+   margin-top: 100px;
+}
+
+.bmi-tittle h1{
+   font-size:2.8rem;
+   font-weight: 900;
+}
+
+.bmi-tittle p{
+   font-size: 0.9rem;
+   font-weight: 300;
+   color: rgba(255, 255, 255, 0.5);
+   margin-top: 15px;
+}
+/* design new section which is about BMI */
+
+
+
+.technical-section{
+   background-color: rgba(34, 34, 34, 1);
+}
+
+
+.bmi-calculator{
+   max-width: 1440px;
+   margin: auto;
+   justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-boxs{
+   display: grid;
+   grid-template-areas:
+      "one one two two"
+      "three three four four"
+      "five five five five";
+   gap: 10px;
+   max-width: 600px;
+}
+
+.input-boxs input{
+   
+   height: 50px;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 10px;
+   padding: 0px 15px;
+   border: none;
+   /* position: relative; */
+
+}
+.fromfill{
+   position: relative;
+}
+.icon i:first-child{
+   position: absolute;
+   top: 128px;
+   left: 560px;
+   color: #ffffff7a;
+}
+
+
+
+.icon i:nth-child(2){
+   position: absolute;
+   top: 189px;
+   left: 560px;
+   color: #ffffff7a;
+}
+.height{
+   grid-area: one;
+}
+.age{
+   grid-area:three;
+}
+.weight{
+   grid-area:two;
+}
+.sex{
+   grid-area:four;
+}
+.selection{
+   grid-area:five;
+   
+}
+
+
+table{
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+td, th{
+   border: 2px solid #ffffff26;
+   padding: 13px 40px;
+   text-align: center;
+}
+
+
+
