@@ -745,3 +745,48 @@ footer hr {
     opacity: 18%;
     margin-top: 20px;
 }
+
+
+/* this is learn section  */
+
+
+.leanr-section{
+   max-width: 1440px;
+   margin: auto;
+   padding: 100px 0px;
+}
+
+.leanr-section h1{
+   font-size: 4rem;
+   text-align: center;
+}
+
+.leanr-section li{
+   list-style: none;
+   font-size: 1.8rem;
+}
+
+.leanr-section ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 75px 45px;
+   background-color: rgba(255, 255, 255, 0.082);
+   border-radius: 20px;
+   height: 400px;
+   align-items: center;
+   padding: 67px;
+   margin-top: 40px;
+   box-shadow: 0px 0px 9px 0px #ffffff4d;
+}
+
+.leanr-section button{
+   grid-row:3/3;
+   grid-column: 2/2;
+   height: 70px;
+   background-color: #E6533C;
+   border-radius: 18px;
+   width:350px;
+   font-size: 1.3rem;
+   font-weight: 700;
+   margin: auto;
+}
