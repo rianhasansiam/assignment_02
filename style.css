@@ -284,7 +284,7 @@ line-height: 80px;
  .trainingsex{
     max-width: 1440px;
     margin: auto;
-    
+    padding-bottom: 90px;
  }
 
  .traingtime{
@@ -484,6 +484,7 @@ line-height: 80px;
       "five five five five";
    gap: 10px;
    max-width: 600px;
+   margin-top: 30px;
 }
 
 .input-boxs input{
@@ -501,7 +502,7 @@ line-height: 80px;
 }
 .icon i:first-child{
    position: absolute;
-   top: 128px;
+   top: 261px;
    left: 560px;
    color: #ffffff7a;
 }
@@ -510,7 +511,7 @@ line-height: 80px;
 
 .icon i:nth-child(2){
    position: absolute;
-   top: 189px;
+   top: 320px;
    left: 560px;
    color: #ffffff7a;
 }
@@ -545,3 +546,202 @@ td, th{
 
 
 
+.size-chart{
+   margin: 100px;
+}
+
+
+
+.fromfill h1{
+   margin-top: 80px;
+   font-size: 2.2rem;
+
+
+}
+
+
+.fromfill p{
+   color:   rgba(255, 255, 255, 0.5);
+   font-size: 0.9rem;
+   margin-top: 10px;
+   
+
+   
+}
+
+.calculate-buton{
+   width: 210px;
+   height: 55px;
+   border-radius: 45px;
+   background-color: rgba(230, 83, 60, 1);
+   border: none;
+   margin-top: 20px;
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+
+
+/* Herer we start making meeting section */
+/* which is about trainer-info */
+
+
+
+
+.meet-ourteam{
+   max-width: 1440px;
+   margin: auto;
+   margin-top: 100px;
+   padding-bottom: 100px;
+}
+
+.meet-ourteam h1{
+   font-size: 3.8rem;
+   text-align: center;
+}
+
+.meet-ourteam p{
+   text-align: center;
+   color:   rgba(255, 255, 255, 0.5);
+   max-width: 900px;
+   margin: auto;
+   margin-top: 20px;
+   word-spacing: 8px;
+   font-size: 1.2rem;
+}
+
+
+
+.trainer-info{
+   
+display: grid;
+   
+grid-template-columns: 1fr 1fr 1fr;
+   
+grid-template-rows: 1fr 1fr;
+   
+justify-content: center;
+   
+align-items: center;
+   
+gap: 25px;
+   
+max-width: 1330px;
+   
+margin: auto;
+   
+background-color: rgba(255, 255, 255, 0.1);
+   
+padding: 28px;
+   
+border-radius: 20px;
+   
+margin-top: 85px;
+}
+
+
+
+.trainer-tempalte{
+   position: relative;
+   width: 425px;
+   height: 346px;
+   border-radius: 20px;
+   margin: auto;
+}
+
+.trainer-tempalte img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   filter: brightness(0.8);
+}
+
+.trainer-tempalte div{
+   position: absolute;
+   top: 260px;
+   left: 20px;
+}
+
+.trainer-tempalte h4{
+   font-size: 1.6rem;
+}
+
+.trainer-tempalte p{
+   font-size: 1.1rem;
+   text-align: left;
+   margin-top: 3px;
+}
+
+
+
+/* Starting a new section which is called footer */
+
+footer{
+   background-color: rgba(34, 34, 34, 1);;
+  
+}
+
+.footer-section{
+   max-width: 1440px;
+   margin: auto;
+   justify-content: space-around;
+   padding-top: 80px;
+}
+
+
+.footer-one{
+   width: 392px;
+}
+
+.footer-one h1{
+   font-size: 5rem;
+   font-weight: 900;
+   font-style: italic;
+   color: #E6533C;
+}
+
+.footer-one p{
+   font-size: 0.8rem;
+   color: rgba(255, 255, 255, 0.5);
+   font-weight: 300;
+   margin-top: 15px;
+}
+
+
+
+.footer-part h3{
+   font-size: 2.1rem;
+   font-weight: 800;
+
+
+}
+
+.footer-part ul{
+   list-style: none;
+   margin-top: 10px;
+   
+   
+}
+
+.footer-part li{
+   color: rgba(255, 255, 255, 0.61);
+   margin: 20px;
+   font-size: 1.2rem;
+}
+
+
+footer span{
+   text-align:center;
+   max-width: 300px;
+   display: block;
+   margin: auto;
+   margin-top: 30px;
+   padding-bottom: 30px;
+   color: #ffffff78;
+}
+
+footer hr {
+    max-width: 1250px;
+    margin: auto;
+    opacity: 18%;
+    margin-top: 20px;
+}
