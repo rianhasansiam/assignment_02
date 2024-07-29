@@ -31,6 +31,9 @@ nav{
     padding-top: 50px;
 }
 
+.menubar{
+   display: none;
+}
 nav h1{
     font-size: 3rem;
     font-weight: 900;
@@ -130,14 +133,21 @@ line-height: 80px;
 .discription{
     color: rgba(239, 237, 232, 0.65);
 
+
+}
+
+
+
+.secpart-two{
+   position: relative;
 }
 
 .video{
     align-items: center;
     gap: 15px;
-    position: relative;
+    position: absolute;
     top: 515px;
-    left: 101px;
+    left: -113px;
     padding: 10px;
 }
 
@@ -151,9 +161,9 @@ line-height: 80px;
 }
 
 .workout{
-    position: relative;
+    position: absolute;
     top: 286px;
-    right: 100px;
+    right: -80px;
     text-align: center;
     padding: 10px;
 }
@@ -260,7 +270,7 @@ line-height: 80px;
  }
 
  .run-extra button{
-    max-width: 225px;
+    width: 225px;
     height: 55px;
     border-radius: 42px;
     background-color: #E6533C;
@@ -789,4 +799,159 @@ footer hr {
    font-size: 1.3rem;
    font-weight: 700;
    margin: auto;
+}
+
+
+/* Here we starting small devices resposive design */
+
+
+
+@media screen and (max-width: 576px) {
+   
+
+   .navigation-menu{
+      display: none;
+   }     
+
+.menubar{
+   display: block;
+   margin-right: 38px;
+   font-size: 1.7rem;
+}
+nav h1{
+   font-weight: 700;
+   margin-left: 15px;
+}
+
+.intro{
+   flex-direction: column;
+}
+
+.secpart-two{
+   justify-content: center;
+}
+.imgworkout{
+   margin-left: 0px;
+}
+
+
+
+.same{
+   width: 127px;
+   height: 62px;
+   font-size: 0.8rem;
+}
+
+.same span:first-child{
+   font-size: 2rem;
+}
+
+.video{
+
+left: 41px;
+
+top: 346px;
+
+gap: 8px;
+}
+
+
+.workout{
+
+right: 22px;
+
+top: 144px;
+}
+
+
+.circle{
+   width: 50%;
+   height: 50%;
+}
+
+.intro-info h1{
+   font-size: 2.5rem;
+   line-height: 50px;
+   margin-left: 15px;
+   width: 253px;
+   margin-bottom: 30px;
+}
+
+.intro-info span{
+   font-size: 2.6rem;
+}
+
+.club{
+   padding: 0px 20px;
+   font-size: 1.1rem;
+   margin-right: 15px;
+   margin-left: 35px;
+   margin-top: 45px;
+}
+
+.Download{
+   padding: 0px 20px;
+   font-size: 1.1rem;
+}
+
+
+.intro-info p{
+   max-width: 350px;
+   margin-left:15px;
+}
+
+.section-tittle h1{
+   font-size: 2.2rem;
+}
+
+.section-tittle p{
+   max-width: 380px;
+   margin: auto;
+   margin-top: 10px;
+}
+
+.habit-items{
+   flex-direction: column;
+   align-items: center;
+}
+
+.habit-items div{
+   margin-top: 65px;
+}
+
+
+.extra-run{
+   flex-direction: column;
+   align-items: center;
+   margin: 50px 20px;
+}
+
+.run-img{
+   margin: 0px;
+   margin-top: 45px;
+}
+
+
+.run-extra{
+   max-width: 300px;
+   margin: auto;
+}
+
+.run-extra h2{
+   font-size: 2.5rem;
+}
+
+.run-extra button{width: 100%;background-color: rebeccapurple;}
+
+
+.traingtime{
+   margin-left: 15px;
+   max-width: 352px;
+}
+
+
+.traingtime h1{
+   font-size: 2.5rem;
+}
+
 }
