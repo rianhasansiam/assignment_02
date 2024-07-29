@@ -319,6 +319,10 @@ line-height: 80px;
 .filter-section{
    margin-top: 70px;
 }
+
+.tempalte-phone{
+   display: none;
+}
 .picture-template1{
    display: grid;
    grid-template-columns: 1fr 2.5fr 1.5fr;
@@ -953,5 +957,129 @@ top: 144px;
 .traingtime h1{
    font-size: 2.5rem;
 }
+
+.template-desktop{
+   display: none;
+}
+
+
+.tempalte-phone{
+   display: block;
+}
+
+
+
+.tempalte-phone img{
+   width: 100%;
+   height: 100%;
+}
+
+.phone-temp1{
+   display: grid;
+   grid-template-columns: 1.2fr 0.8fr;
+   max-width: 400px;
+   margin: auto;
+}
+
+.phone-temp1 div{height: 175px;position: relative;}
+
+.phone-temp2{
+   display: grid;
+   grid-template-columns: 0.8fr 1.2fr;
+   max-width: 400px;
+   margin: auto;
+}
+
+
+.phone-temp2 div{height: 175px;position: relative;}
+
+
+
+
+
+.filter10,
+ .filter20{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 1;
+   bottom: 0px;
+}
+
+
+.filter10{background-color: rgb(6 255 210 / 32%);}
+.filter20{background-color: rgba(255, 0, 0, 0.3);}
+
+
+
+
+
+
+.filter110,
+ .filter220{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 1;
+   bottom: 0px;
+}
+
+
+.filter110{background-color: rgba(0, 0, 0, 0.5);}
+.filter220{background-color: rgba(66, 255, 0, 0.3);}
+
+
+
+
+.phone-temp1 p{
+   position:absolute;
+   font-weight: 500;
+   z-index: 3;
+}
+
+
+
+.phone-temp2 p{
+   position:absolute;
+   font-weight: 500;
+   z-index: 2;
+}
+
+
+.picture-one1 p{
+
+   top: 135px;
+   left: 10px;
+
+}
+
+.picture-two1 p{
+   top: 135px;
+   left: 10px;
+
+   
+}
+.picture-oneone1 p{
+   top: 135px;
+   left: 10px;
+
+   
+}
+.picture-twotwo1 p{
+
+   top: 135px;
+   left: 10px;
+
+   
+}
+
+
+
+
+
+
+
+
+
 
 }
