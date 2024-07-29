@@ -786,7 +786,7 @@ footer hr {
    gap: 75px 45px;
    background-color: rgba(255, 255, 255, 0.082);
    border-radius: 20px;
-   height: 400px;
+   min-height: 400px;
    align-items: center;
    padding: 67px;
    margin-top: 40px;
@@ -921,6 +921,7 @@ top: 144px;
 
 .habit-items div{
    margin-top: 65px;
+   width: 380px;
 }
 
 
@@ -1075,11 +1076,188 @@ top: 144px;
 
 
 
+.bmi-tittle{
+   margin-left: 15px;
+}
+
+
+
+.bmi-calculator{
+   flex-direction: column;
+}
+
+
+
+.size-chart{
+   margin: 0px;
+}
+
+
+
+table{
+   margin: auto;
+   margin-top: 35px;
+}
+
+td, th{
+   padding: 13px 30px;
+}
+
+
+
+.size-chart h1{
+   margin-left: 25px;
+   margin-top: 50px;
+}
+
+
+
+
+.input-boxs input{
+   max-width: 160px;
+}
+
+
+.input-boxs{
+   max-width: 380px;
+   margin: auto;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.input-boxs input:nth-child(5){
+   max-width: 380px;
+}
+
+
+.fromfill h1{
+   font-size: 1.5rem;
+}
+.fromfill h1,p{
+   margin-left: 23px;
+   max-width: 350px;
+}
+
+
+
+.calculate-buton{
+   
+   margin: 30px 0px;
+   margin-left: 25px;
+   
+}
 
 
 
 
 
+.icon i:first-child{
+   
+top: 329px;
+   
+left: 378px;
+   
+
+}
+
+
+
+.icon i:nth-child(2){
+   top: 271px;
+   left: 378px;
+}
+
+
+
+.meet-ourteam h1, p{
+   width: 370px;
+}
+
+.meet-ourteam h1{
+   font-size: 2.5rem;
+   margin: auto;
+}
+
+
+.trainer-info{
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+.trainer-tempalte{
+   width: 360px;
+   height: 320px;
+}
+
+.trainer-tempalte div{
+   top: 240px;
+}
+
+.leanr-section{
+   
+width: 380px;
+}
+.leanr-section ul{
+   display: block;
+   padding: 0px 25px;
+   padding-top: 5px;
+}
+
+
+.leanr-section li{
+   margin-top: 57px;
+}
+
+.leanr-section button{
+    margin: 57px 0px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.leanr-section h1{
+   font-size: 2.2rem;
+}
+
+
+
+.footer-section{
+   flex-direction: column;
+   margin-left: 30px;
+}
+
+
+
+.footer-one h1{
+   font-size: 3rem;
+}
+
+.footer-one p{
+   margin-left: 0px;
+}
+
+.footer-two{
+   margin-top: 30px;
+}
+
+.footer-three{
+   margin-top: 20px;
+}
+
+
+.habit-items p{
+   
+margin: auto;
+   
+width: 370px;
+   
+margin-top: 15px;
+}
+
+
+.habit-items img{
+    margin-left: 98px;
+}
 
 
 }
