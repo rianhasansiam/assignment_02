@@ -1115,22 +1115,24 @@ td, th{
 
 
 .input-boxs input{
-   max-width: 160px;
+   max-width: 145px;
 }
 
 
 .input-boxs{
-   max-width: 380px;
+   max-width: 350px;
    margin: auto;
    gap: 10px;
    margin-top: 20px;
 }
 
 .input-boxs input:nth-child(5){
-   max-width: 380px;
+   min-width: 340px;
 }
 
-
+.fromfill{
+   width: 380px;
+}
 .fromfill h1{
    font-size: 1.5rem;
 }
@@ -1154,18 +1156,16 @@ td, th{
 
 .icon i:first-child{
    
-top: 329px;
+top: 330px;
    
-left: 378px;
-   
-
+left: 340px;
 }
 
 
 
 .icon i:nth-child(2){
    top: 271px;
-   left: 378px;
+   left: 340px;
 }
 
 
@@ -1255,6 +1255,11 @@ margin-top: 15px;
 
 .habit-items img{
     margin-left: 98px;
+}
+
+
+footer{
+   overflow: hidden;
 }
 
 
